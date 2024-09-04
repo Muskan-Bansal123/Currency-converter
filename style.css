@@ -1,0 +1,115 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+  background: linear-gradient(90deg,#f73d36,#d4d4ed);
+}
+
+.header{
+    font-size: 4rem;
+    background:linear-gradient(rgb(206, 222, 253),rgb(199, 199, 245),white);
+    padding: 1.2rem;
+    text-align: center;
+    text-shadow: 3px 0px 2px rgb(241, 241, 242);
+    border-bottom: 3px solid rgb(17, 17, 20);
+    font-family: "Bungee Tint", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.subcontainer{
+   font-size:1rem;
+   background-color: aliceblue;
+   padding: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius:0.75rem;
+
+}
+form input,#btn{
+    width: 100%;
+    border:none;
+    outline:none;
+    border-radius: 0.5rem;
+    padding: 3px;
+    font-size: 1.3rem;
+}
+form select{
+    font-size: 0.9rem;
+    width: 70;
+    border-radius: 0.5rem;
+    margin-left: 0.3rem;
+
+}
+.from,.to{
+    font-size: 1.3rem;
+    margin: 1.5rem;
+}
+form input{
+    border:2px solid rgb(238, 17, 14);
+    height:1.7rem;
+    margin-top: 3px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.dropdown i{
+    color: #2b55fb;
+    font-size: 2rem;
+}
+form select{
+    background-color:aliceblue;
+    height:2rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+}
+#btn{
+    background-color: #e7200e;
+    color: aliceblue;
+    height: 2.7rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+form select:hover{
+    background-color: rgb(64, 61, 61);
+    color: rgb(247, 240, 240);
+}
+.msg{
+    font-size: 2rem;
+    margin:1rem;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.amount p{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.center1,.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.from p,.to p{
+    font-family: sans-serif;
+    font-size: 2.0rem;
+}
